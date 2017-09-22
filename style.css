@@ -1,0 +1,52 @@
+#board {
+    border: 1px solid black;
+    resize: none;
+}
+
+#board textarea {
+    rows: 1;
+    cols: 1;
+    width: 50px;
+    height: 55px;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    resize: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Times;
+    margin: 0px;
+}
+
+#shelf {
+    rows: 20;
+    cols: 5;
+    text-transform: uppercase;
+}
+
+.dl {
+    background-color: rgb(185, 209, 206);
+}
+
+.tl {
+    background-color: rgb(73, 141, 166);
+}
+
+.dw {
+    background-color: rgb(238, 174, 156);
+}
+
+.tw {
+    background-color: rgb(234, 94, 74);
+}
+
+.reg { /* Style for regular tiles */
+    background-color: rgb(191, 183, 152);
+}
+
+.assigned { /* Style for tiles with letters currently being assigned */
+    color: chartreuse;
+}
