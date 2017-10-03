@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
     <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
     <script type="text/javascript" src="jquery.min.js"></script>
-    <!--<script type="text/javascript" src="jquery.forwardevents.js"></sscript> -->
+    <script type="text/javascript" src="lookup.js"></script>
     <script type="text/javascript" src="scrabble.js"></script>
-    <link type="text/css" rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -13,7 +13,15 @@
 
 <table id="board"></table>
 <textarea id="shelf"></textarea>
-<button id="optimizebutton">Optimize!</button>
+<button id="optimizebutton">Optimize</button>
+<button id="testbutton" disabled="true">Test</button>
+<input type="checkbox" id="testcheckbox">Test mode:</input>
+<span id="testcontroller" class="hidden">
+    <input type="checkbox" id="green">Placing green letters</input>
+    <input type="form" id="indexform">index</input>
+    <input type="checkbox" id="isrowcheckbox">isRow</input>
+</span>
+
 <p></p>
 
 </body>

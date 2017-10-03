@@ -51,6 +51,7 @@ public class Dictionary {
                     } else {
                         c1++;
                     }
+
                     if (writing) {
                         suffix_str += str.charAt(i);
                         c3++;

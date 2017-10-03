@@ -47,6 +47,10 @@ h1 {
     background-color: rgb(191, 183, 152);
 }
 
-.assigned { /* Style for tiles with letters currently being assigned */
+.green {
     color: chartreuse;
+}
+
+.hidden {
+    visibility: hidden;
 }
